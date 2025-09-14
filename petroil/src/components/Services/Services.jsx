@@ -4,10 +4,14 @@ import Flex from '../Layouts/Flex'
 const Services = () => {
   return (
    <div className='py-[28px]'>
-     <Flex className="items-center ">
-        <div className="pl-[90px]  pt-[106px] pb-[142px] pr-[61px] w-[50%]  ">
-            <h2 className="w-[590px] font-primary font-bold text-[64px]">Our Services</h2>
+     <Flex className="items-center  ">
+        <div className=" pr-[60px] w-[50%]   ">
+           <div className='flex justify-end'>
+             <div>
+              <h2 className=" font-primary font-bold text-[64px]">Our Services</h2>
             <p className="w-[405px] font-primary font-medium text-[16px] text-[#6C6C6C]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+           </div>
         </div>
         
         <div className=" relative bg-[url(./assets/serviceone.png)] bg-cover bg-center bg-no-repeat pt-[147px] pb-[139px] after:absolute after:content[''] after:top-0 after:left-0 after:h-full after:w-full after:bg-black/60 w-[50%]">
