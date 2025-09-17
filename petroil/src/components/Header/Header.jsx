@@ -10,8 +10,8 @@ const Header = () => {
 
         <Container>
                   <div className=" font-primary text-white ] py-[15px]">
-        <div className="flex justify-between">
-           <div className= "flex space-x-[49px]"> 
+        <div className="flex items-center md:justify-between">
+           <div className= "md:flex space-x-[49px]"> 
             <div className=" flex items-center space-x-[5px] ">
              <IoMailUnreadOutline size={20} />
             <p className='text-[12px'>mail@yourcompany.com</p>
