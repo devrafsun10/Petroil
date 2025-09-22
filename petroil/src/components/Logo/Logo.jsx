@@ -10,7 +10,7 @@ const Logo = () => {
   return (
     <div className='py-[116px]'>
         <Container>
-            <Flex className="justify-between items-center">
+            <Flex className=" flex-col md:flex-row justify-between items-center">
                 <img src={logoOne} alt="#logo" />
                 <img src={logoTwo} alt="#logo" />
                 <img src={logoThree} alt="#logo" />
