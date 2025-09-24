@@ -50,7 +50,7 @@ const Navbar = () => {
                     {
                         show ? 
                         <div className='absolute top-[150px] py-10 right-[0] bg-[#F40404]      z-[9999] w-full'>
-                            <ul className=" md:flex items-center space-x-[47px] font-primary font-semibold text-white text-[16px]  ">
+                            <ul className=" md:flex items-center space-x-[47px] font-primary font-semibold text-white text-[16px] mx-auto text-center  ">
                         <li className='hover:text-[#FFB800] transition-all duration-300 pl-8'>
                             <a href="">Home</a>
                         </li>
@@ -66,7 +66,7 @@ const Navbar = () => {
                         <li className='hover:text-[#FFB800] transition-all duration-300 pl-8'>
                             <a href="">Blog</a>
                         </li>
-                        <li className="border-2 py-[10px] px-[30px] md:py-[13px] md:px-[32px] transiton-all duration-300  hover:text-[#FFB800] w-[150px] md:w-auto mt-5 ">
+                        <li className="border-2 py-[10px] px-[30px] md:py-[13px] md:px-[32px] transiton-all duration-300  hover:text-[#FFB800] w-[150px] md:w-auto mt-5 mx-auto text-center">
                             <a href="">CONTACT</a>
                         </li>
                     </ul> 
